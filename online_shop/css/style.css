@@ -1,0 +1,46 @@
+/*All*/
+html{
+    scroll-behavior: smooth;
+}
+section.padding_section{
+    padding: 5rem 0;
+}
+.card img.card-img-top{
+    object-fit: contain;
+    height: 16rem;
+}
+
+/*Home*/
+.offerText{
+    user-select: none;
+    padding: 5rem 0;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.toast{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+}
+
+/*Catalog*/
+#sale{
+    background: url("../img/sale_1.jpg") repeat-x;
+    background-size: contain;
+    height: 6rem;
+}
+#catalogPage .card img.card-img-top{
+    height: 12rem;
+}
+#catalogPage .card-text{
+    font-size: .75rem;
+}
+
+/*Profile*/
+#profilePage img.profile_icon{
+    width: 100%;
+    height: auto;
+}

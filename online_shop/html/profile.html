@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  Icon  -->
+    <link rel="icon" href="../img/shopware-brands.svg">
+    <!--  Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--  Font Awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--  CSS  -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Profile | BEST SHOP</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><i class="fab fa-shopware"></i> BEST SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html"><i class="fa fa-home"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./catalog.html"><i class="fa fa-shopping-cart"></i> Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./profile.html"><i class="fa fa-user-circle"></i> Profile</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main id="profilePage">
+        <div class="container">
+            <div class="row row-cols-2 py-5">
+                <div class="col-3">
+                    <div class="list-group shadow">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Profile</a>
+                        <a href="#" class="list-group-item list-group-item-action">My Orders</a>
+                        <a href="#" class="list-group-item list-group-item-action">Cart</a>
+                        <a href="#" class="list-group-item list-group-item-action">Wish List</a>
+                        <a href="#" class="list-group-item list-group-item-action">Manage Feedback</a>
+                        <a href="#" class="list-group-item list-group-item-action">My Coupons</a>
+                        <a href="#" class="list-group-item list-group-item-action">Recently Viewed Products</a>
+                        <a href="#" class="list-group-item list-group-item-action">My Shipping Address</a>
+                        <a href="#" class="list-group-item list-group-item-action">Settings</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
+                           aria-disabled="true">Edit profile</a>
+                    </div>
+                </div>
+                <div class="col-9 bg-light border shadow">
+                    <div class="row row-cols-2 py-3">
+                        <div class="col-4 d-flex justify-content-center align-items-center">
+                            <img src="../img/profile_icon.png" class="img-fluid profile_icon shadow" alt="Profile Icon">
+                        </div>
+                        <div class="col-8 d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="user_first_last_name">
+                                John Marvey
+                            </h2>
+                            <h4 class="user_email">
+                                john.marvey@example.com
+                                <div class="col text-center py-3">
+                                    <button type="button" class="btn btn-primary">
+                                        Notifications <span class="badge bg-danger">4</span>
+                                    </button>
+                                </div>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1">
+                        <div class="col py-5 border-bottom">
+                            <h5>Your progress in shopping</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col py-5">
+                            <ul class="nav nav-pills nav-fill">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">My Last Orders</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Awaiting Payment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Awaiting Shipment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disputes
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col py-5">
+                            <div class="row row-cols-4 mb-4">
+                                <div class="col">
+                                    <div class="card text-dark bg-light mb-3 shadow-lg">
+                                        <img src="../img/products/man_japanese_shirt.jpg" class="card-img-top"
+                                             alt="japanese_shirt">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Men's japanese shirt</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make
+                                                up the
+                                                bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-dark bg-light mb-3 shadow-lg">
+                                        <img src="../img/products/nike_sneakers_wireless.jpeg" class="card-img-top"
+                                             alt="nike_sneakers_wireless">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Wireless NIKE sneakers</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make
+                                                up the
+                                                bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-dark bg-light mb-3 shadow-lg">
+                                        <img src="../img/products/xiaomi_freetie.jpg" class="card-img-top"
+                                             alt="xiaomi_freetie">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Freetie from Xiaomi</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make
+                                                up the
+                                                bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="navbar navbar-dark bg-dark text-white-50">
+        <section class="padding_section w-100">
+            <div class="container">
+                <div class="row row-cols-3 text-center">
+                    <div class="col">
+                        <a class="navbar-brand" href="./index.html"><i class="fab fa-shopware"></i> BEST SHOP</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="nav-link">Rate Us</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="nav-link">Looking for a job</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="nav-link">Company license</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="nav-link">Contact Us</a>
+                    </div>
+                    <div class="col">
+                        <a href="#about" class="nav-link">About</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="legal w-100">
+            <p class="text-end px-5">
+                Copyright © 2021. All rights reserved
+            </p>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+</html>
